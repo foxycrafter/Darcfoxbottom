@@ -247,6 +247,7 @@
       rgb(var(--background-end-rgb)) 40%
     );
     z-index: 1;
+    
   }
 }
 
@@ -268,4 +269,54 @@
   to {
     transform: rotate(0deg);
   }
+}
+
+
+
+.PrincipalImg{
+  border-radius: 90px;
+
+}
+
+.Text{
+
+  padding: 50px; 
+  
+  border: solid 1px;
+  border-radius: 5px;
+}
+
+
+.Text2{
+
+  padding: 50px; 
+  
+  
+}
+
+
+
+.Separation{
+  padding-top: 90px;
+  padding-bottom: 80px;
+}
+
+.Resalte{
+  border: solid white 1px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+
+.Brand{
+  align-self: center;
+  justify-content: center;
+  padding: 20px;
+  padding-top: 40px;
+  font-size: large;
+  
+}
+.Brand::after{
+  color: black;
 }
